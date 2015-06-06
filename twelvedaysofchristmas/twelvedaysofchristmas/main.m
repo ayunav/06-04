@@ -14,12 +14,15 @@ int main(int argc, const char * argv[]) {
         NSString *sent = @"day of Christmas my true love sent to me";
         NSString *peartree = @"a Partridge in a Pear Tree.";
         NSString *doves = @"Two Turtle Doves";
-        NSString *hens = @"Three French Hens,";
+        NSString *hens = @"Three French Hens";
         
         NSLog(@"\n On the First %@\n %@\n", sent, peartree);
         NSLog(@"\n On the Second %@\n %@\n %@\n", sent, doves, peartree);
         NSLog(@"\n On the Third %@\n %@\n %@\n %@\n", sent, hens, doves, peartree);
         
+        Nsarray *days = @(
+        
+    // we are going to make changes to this.
         
 //
 //        On the Third day of Christmas my true love sent to me
