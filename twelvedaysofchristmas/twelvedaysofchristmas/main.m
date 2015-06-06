@@ -11,10 +11,10 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *sent = @"day of Christmas my true love sent to me";
-        NSString *peartree = @"a Partridge in a Pear Tree.";
-        NSString *doves = @"Two Turtle Doves";
-        NSString *hens = @"Three French Hens,";
+        NSString *sent = @"day of Summer my true love sent to me";
+        NSString *peartree = @"a Partridge in a Apple Tree.";
+        NSString *doves = @"Two Turtles";
+        NSString *hens = @"Three English Hens,";
         
         NSLog(@"\n On the First %@\n %@\n", sent, peartree);
         NSLog(@"\n On the Second %@\n %@\n %@\n", sent, doves, peartree);
