@@ -35,6 +35,8 @@ int main(int argc, const char * argv[]) {
         BOOL younger = sis > me;
         NSLog(@"\n \n Is Tuyana younger than me? %d\n", younger);
         
+        int i = 0;
+        
         // insert code here...
         }
     return 0;
